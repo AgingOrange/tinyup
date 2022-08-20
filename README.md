@@ -47,3 +47,14 @@ Put "tinyup" in your bar.
 
 For more information, consult Polybar's documentation
 for [scripts](https://github.com/polybar/polybar/wiki/Module:-script). 
+
+## Installation
+
+You will need to have Rust installed. The easiest way is to use `rustup` as
+described on the [Rust website](https://www.rust-lang.org/tools/install).
+
+After you've installed Rust, clone this project and from its root directory,
+use `cargo build --release` to create the binary (`cargo` is part of the
+Rust toolchain). Copy the binary to
+somewhere in your path, for example using `cp ./target/release/tinywx ~/.
+local/bin/`.
